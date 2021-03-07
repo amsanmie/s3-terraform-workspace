@@ -8,6 +8,6 @@ variable "AWS_ACCESS_KEY_ID" {
   description = "Secret key for the account"
 }
 
-variable "region" {
-  type = string
+variable "bucket_name" {
+  default = ""
 }
