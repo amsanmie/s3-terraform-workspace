@@ -6,7 +6,7 @@ provider "aws" {
 
 module "bucket" {
   source            = "app.terraform.io/ogacloud/bucket/s3"
-  version           = "0.0.1"
+  version           = "2.0"
   bucket            = "amsanmie-newest-bucket"
   acl               = "private"
   sse_algorithm     = "aws:kms"
