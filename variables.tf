@@ -11,3 +11,7 @@ variable "AWS_ACCESS_KEY_ID" {
 variable "bucket_name" {
   default = ""
 }
+
+variable "region" {
+  type = string
+}
