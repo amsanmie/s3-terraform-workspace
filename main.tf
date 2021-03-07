@@ -11,5 +11,4 @@ module "bucket" {
   acl               = "private"
   sse_algorithm     = "aws:kms"
   kms_master_key_id = "aws/s3"
-  region     = var.region
 }
