@@ -8,7 +8,6 @@ module "bucket" {
   source            = "app.terraform.io/ogacloud/bucket/s3"
   version           = "0.0.1"
   bucket            = "amsanmie-newest-bucket"
-  tags              = "s3-bucket-terraform"
   acl               = "private"
   sse_algorithm     = "aws:kms"
   kms_master_key_id = "aws/s3"
